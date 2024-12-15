@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(30, 54%, 90%);
+  font-family: "Young Serif", "Outfit";
+}
+
+.container {
+  margin: 2em auto;
+  padding: 13px;
+  width: 100%;
+  max-width: 300px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 5px;
+}
+
+.omelette-recipe {
+  margin-top: 3px;
+  font-size: 8px;
+}
+
+.omelette-recipe-paragraph {
+  margin-top: 2px;
+  font-family: "Outfit";
+  font-size: 8px;
+}
+.omelette-food-img {
+  border-radius: 5px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.preparation-menu {
+  font-family: "Outfit";
+  background-color: hsl(30, 54%, 90%);
+  padding: 7px;
+  margin: 10px;
+}
+
+.preparation-menu .preparation-time {
+  font-size: 7.5px;
+  color: hsl(14, 45%, 36%);
+  margin-bottom: 4px;
+  margin-top: 3px;
+}
+.preparation-menu li {
+  font-size: 7.5px;
+  list-style-position: inside;
+  margin-bottom: 5px;
+}
+
+.Ingredients {
+  color: hsl(14, 45%, 36%);
+  font-size: 7.5px;
+}
+
+.ingredients-section {
+  border-bottom: 1px solid #dee2e6;
+  margin-bottom: 8px;
+}
+.ingredients-listing {
+  font-family: "Outfit";
+  font-size: 7.5px;
+}
+
+.ingredients-listing li {
+  list-style-position: inside;
+  margin-bottom: 5px;
+}
+
+.Instructions {
+  color: hsl(14, 45%, 36%);
+  font-size: 7.5px;
+}
+
+.instructions-listing {
+  font-family: "Outfit";
+  font-size: 7.5px;
+}
+
+.instructions-listing li {
+  margin-bottom: 5px;
+  list-style-position: inside;
+}
+
+.Nutrition {
+  color: hsl(14, 45%, 36%);
+  font-size: 7.5px;
+  margin-top: 10px;
+}
+
+.nutrition-info {
+  font-family: "Outfit";
+  font-size: 7.5px;
+  margin-top: 8px;
+}
+
+.nutrition-food {
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.nutrition-food div {
+  margin-bottom: 3px;
+  margin-top: 3px;
+  border-bottom: 0.5px solid #dee2e6;
+}
+
+.calories-name {
+  color: hsl(14, 45%, 36%);
+}
+
+.carbs-name {
+  color: hsl(14, 45%, 36%);
+}
+
+.protein-name {
+  color: hsl(14, 45%, 36%);
+}
+
+.fat-name {
+  color: hsl(14, 45%, 36%);
+}
+@font-face {
+  font-family: "Young Serif";
+  src: url(/assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url(/assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+.attribution {
+  font-size: 8px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
